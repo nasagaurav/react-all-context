@@ -26,7 +26,7 @@ export default function App() {
   );
 }
 const Posts = () => {
-  const data = useContext(OnlineContext);
+  const data = useContext(OnlineContext); //a ,fetchData
   // console.log(data);
   const p1 = () => {
     data.fetchData('https://jsonplaceholder.typicode.com/posts');
@@ -98,7 +98,7 @@ const Todos = () => {
   );
 };
 const Table = () => {
-  const data = useContext(OnlineContext);
+  const data = useContext(OnlineContext); //a,fetchData
   return (
     <div>
       <pre>outout json in stringify format here</pre>
